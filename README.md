@@ -1,3 +1,3 @@
-#1 Resume
+# Resume
 
 Max Camps
