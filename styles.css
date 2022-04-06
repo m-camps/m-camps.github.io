@@ -4,6 +4,7 @@
 	font-family: "Poppins", sans-serif;
   }
   
+
 img {
 	display: block;
 	margin-left: auto;
@@ -50,8 +51,9 @@ img {
 	color: #EDB435;
 }
 body {
-	overflow: hidden;
-	margin: 0;
+
+	/* overflow-x: hidden; */
+	margin: auto;
 }
 
 /* orange = #d0a134 */
