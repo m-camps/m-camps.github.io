@@ -37,7 +37,7 @@ img {
 }
 
 .img-top {
-	padding-top:5%;
+	padding-top:2%;
 }
 
 .subtext p {
@@ -168,4 +168,9 @@ button:hover {
 	padding-top: 0;
 	filter: invert(12%) sepia(4%) saturate(2601%) hue-rotate(186deg) brightness(97%) contrast(83%);
 	color:  #2b2e36
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
 }
