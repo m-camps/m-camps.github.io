@@ -4,6 +4,10 @@
 	font-family: "Poppins", sans-serif;
   }
 
+
+html {
+	height: 100%;
+} 
 img {
 	display: block;
 	margin-left: auto;
@@ -36,9 +40,6 @@ img {
 	color: #e0e2e4;
 }
 
-.img-top {
-	padding-top:2%;
-}
 
 .subtext p {
 	font-size: 16px;
@@ -50,7 +51,7 @@ img {
 	color: #EDB435;
 }
 body {
-
+	height: 100%;
 	/* overflow-x: hidden; */
 	margin: auto;
 }
@@ -174,15 +175,16 @@ button:hover {
 .content {
 	display: flex;
 	flex-direction: column;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
   
   .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #f9f9f9;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	background-color: #c2c5c7; 
 	top: 0px;
-	left:128px;
+	left: 95px;
 	z-index: 1;
   }
   
@@ -190,11 +192,33 @@ button:hover {
 	display: flex;
   }
 
+  .dropdown-button{
+	cursor: default;
+  }
   .dropdown:hover .dropdown-button{
 	color:#c2c5c7;
   }
 
+  .flag:hover {
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  }
+
   .flag{
+	
 	width: 70px;
-	height: 51px;
+	height: 50px;
+	cursor: pointer;
+  }
+
+  .dropdown-content > a {
+	cursor:default;
+	margin-left: 20px;
+	margin-right: 20px;
+  }
+
+  @media only screen and (min-height: 1100px) {
+	.content {
+		padding-top: 4%;
+		padding-bottom: 4%;
+	}
   }
