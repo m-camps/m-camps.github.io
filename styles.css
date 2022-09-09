@@ -157,6 +157,7 @@ button:hover {
 	background-color: #c2c5c7;
 	box-shadow: 5px 5px #2b2e36;
 	z-index: 1;
+	cursor:pointer;
 }
 
 .icon {
