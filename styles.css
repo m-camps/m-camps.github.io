@@ -8,7 +8,7 @@
 html {
 	height: 100%;
 } 
-img {
+#headshot {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -70,6 +70,27 @@ body {
 	width: 100%;
 	z-index: -2;
 }
+
+.icon_button {
+	width: 190px;
+	height: 190px;
+}
+
+.icon_container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	display: flex;
+}
+
+.icon_wrapper {
+	padding: 0px 10px 0px 10px;
+	width: 190px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
 
 .curve {
 	fill: #EDB435;
@@ -136,7 +157,7 @@ body {
 	margin-top: -7px;
 }
 
-button {
+.menu_button {
 	z-index: 1;
 	position: relative;
 	display: block;
@@ -146,6 +167,21 @@ button {
 	margin-right: auto;
 	padding: 10px;
 	margin-top: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #363a44;
+	background-color: #e0e2e4;
+	text-decoration: none;
+	border: none;
+	border-radius: 8px;
+}
+
+button {
+	z-index: 1;
+	position: relative;
+	height: 20%;
+	padding: 10px;
+	margin-top: 10px;
 	font-size: 20px;
 	font-weight: 700;
 	color: #363a44;
